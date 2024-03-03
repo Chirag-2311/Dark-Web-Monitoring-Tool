@@ -31,7 +31,7 @@ class App(ctk.CTk):
         
         # Increase font size of the OptionMenu
         optionmenu_font = ("Arial", 12)
-        self.modeMenu = ctk.CTkOptionMenu(self, values=["Monitoring", "Mode 2", "Mode 3"], variable=self.modeVar, width=50, font=optionmenu_font)
+        self.modeMenu = ctk.CTkOptionMenu(self, values=["Monitoring"], variable=self.modeVar, width=50, font=optionmenu_font)
         self.modeMenu.grid(row=0, column=1, padx=10, pady=10, sticky="ew")
 
         # URL Radio Buttons
@@ -93,9 +93,7 @@ class App(ctk.CTk):
             url = self.urlFileEntry.get()
         
         script_map = {
-            "Mode 1": "test.py",
-            "Mode 2": "script2.py",
-            "Mode 3": "script3.py"
+            "Monitoring": "test.py"
         }
         script_path = script_map.get(mode)
         if script_path:
