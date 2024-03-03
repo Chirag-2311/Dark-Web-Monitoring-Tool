@@ -24,8 +24,8 @@ proxies = {
 }
 
 cookies = {
-    'dcap': '5JgoLWq9IOBL1uoFi0Bab7zj2bXq1G01/RqXVQp7ZYc/B7ZUTM+VDEU+RxKT3I6t20h4lQutwuqrgRTZ3SXmDgCs+6yQq6Q6bmtrKNNQvZynp5ExZvXnEUwmocUCpc5c5hnSUsSuUdvG9eRVKjccG3IGC8stnBsBP5L9iw==',
-    'dread': 'v6duhg09tho74seg2v89gh80bg'
+    'dcap': 'LATEST WEBSITE COOKIE for dcap',
+    'dread': 'LATEST WEBSITE COOKIE for dread'
 }
 
 url = construct_url_with_keywords()
