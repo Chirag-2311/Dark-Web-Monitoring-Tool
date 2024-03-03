@@ -24,8 +24,8 @@ proxies = {
 }
 
 cookies = {
-    'dcap': 'LATEST WEBSITE COOKIE for dcap',
-    'dread': 'LATEST WEBSITE COOKIE for dread'
+    'dcap': 'LATEST COOKIE of dcap field',
+    'dread': 'LATEST COOKIE of dread field'
 }
 
 url = construct_url_with_keywords()
