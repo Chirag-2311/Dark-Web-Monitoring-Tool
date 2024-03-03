@@ -1,0 +1,10 @@
+requests
+re
+bs4
+selenium
+sqllite
+pysocks
+pysocks5
+customtkinter
+tkinter
+proxychains
