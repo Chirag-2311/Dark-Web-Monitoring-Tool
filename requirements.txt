@@ -8,3 +8,4 @@ pysocks5
 customtkinter
 tkinter
 proxychains
+scikit-learn
