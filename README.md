@@ -1,3 +1,5 @@
+sudo service tor start
+
 pip install -r requirements.txt
 
 python gather_data.py (to collect data from dataset for web claassification)
